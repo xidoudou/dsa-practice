@@ -12,3 +12,7 @@ def is_match(s:str, t:str) -> bool:
     return all(v == 0 for v in compare_dict.values())
 
 
+s = "appleishere"
+t = "thisisaple"
+
+print(is_match(s,t))
