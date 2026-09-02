@@ -11,6 +11,4 @@ def is_match(s:str, t:str) -> bool:
             compare_dict[char] -= 1
     return all(v == 0 for v in compare_dict.values())
 
-s = "appleisme"
-t = "ismeapple"
-print(is_match(s,t))
+
